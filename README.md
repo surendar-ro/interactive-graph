@@ -1,5 +1,27 @@
+# **Interactive Cybersecurity Attack Graph Visualization**
+
+
+
+## **Overview**
+
+This project implements an interactive attack graph visualization for a cybersecurity application using **Next.js**, **Cytoscape.js**, and **WebSockets** for real-time data updates. The visualization represents the flow and connections in a cybersecurity attack graph, where each entity is shown as a node, and their relationships are depicted as edges. Clicking on nodes and edges displays detailed information about each entity.
+
+## **Technologies Used**
+
+- **Frontend:** Next.js (v13.3.0), Cytoscape.js
+- **Backend:** Node.js with WebSocket or REST API
+- **Graph Library:** Cytoscape.js (for graph rendering)
+- **Real-Time Data:** WebSockets or REST API (for real-time updates)
+- **Version Control:** Git, GitHub
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
+![image](https://github.com/user-attachments/assets/3a2339f3-3dc5-4ce7-a4dc-b793e251d95e)
+
+
+  ```bash
+  npx create-next-app@13.3.0 attack-graph-visualization
+  cd attack-graph-visualization
 ## Getting Started
 
 First, run the development server:
